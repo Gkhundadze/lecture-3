@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Dosis', sans-serif;
+    src: url(../fonts/Dosis-Light.ttf);
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+.products-section {
+    padding: 170px 120px 200px 120px;
+}
+
+.product-wrapper {
+    display: inline-block;
+}
+
+.product-content {
+    border: 1px solid black;
+    display: inline-block;
+    width: 333px;
+    padding: 15px 15px 25px 15px;
+}
+
+.product-content img {
+    width: 100%;
+}
+
+.product-content h3 {
+    margin: 15px 0;
+    line-height: 24px;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.product-content p {
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: .5px;
+    font-family: 'Itim', cursive;
+}
+
+.product-content h3,
+.product-content p {
+    margin-left: 10px;
+}
+
+.product-footer button {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 6px 26px;
+    background-color: inherit;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: lowercase;
+}
+
+.product-footer button:hover {
+    background-color: #775050;
+    color: white;
+}
+
+.product-footer {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.product-wrapper.middle {
+    margin: 0 100px;
+}
